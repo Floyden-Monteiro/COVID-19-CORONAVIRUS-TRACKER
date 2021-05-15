@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 8px;
+  transition: transform 450ms;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.card__main {
+  margin: 70px;
+}
+
+.cool {
+  margin: 55px;
+}
+
+.item1 {
+  background-color: SlateBlue;
+}
+.item2 {
+  background-color: MediumSeaGreen;
+}
+.item3 {
+  background-color: LightGray;
+}
+.item4 {
+  background-color: Tomato;
+}
+.item5 {
+  background-color: Gray;
+}
+.item6 {
+  background: colo #222;
+  border: 1px solid white;
+}
+
+body {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+
+.card:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .card__container {
+    grid-template-columns: auto;
+    justify-content: space-around;
+  }
+}
+
+.card__total {
+  padding-bottom: 30px;
+  margin-top: -20px;
+
+  font-family: "Varela Round", sans-serif;
+  font-size: large;
+  font-weight: 100;
+}
+
+.card__name {
+  padding-bottom: 40px;
+  margin-top: -20px;
+}
+
+h1 {
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+h2 {
+  color: white;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid white;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+.r{
+  margin-left: -20px;
+}
+
+
+.card__name{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 40px;
+  font: bolder;
+}
+
+.m{
+
+  margin-left: -35px;
+  align-items: center;
+  text-align: center;
+}
